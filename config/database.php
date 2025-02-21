@@ -85,7 +85,7 @@ return [
         'pgsql' => [
             'driver' => 'pgsql',
             'url' => env('DB_URL'),
-            'host' => env('DB_HOST', 'ep-red-dust-a9wo4y5x-pooler.gwc.azure.neon.tech'),
+            'host' => env('DB_HOST', 'ep-red-dust-a9wo4y5x.gwc.azure.neon.tech'),
             'port' => env('DB_PORT', '5432'),
             'database' => env('DB_DATABASE', 'laravel'),
             'username' => env('DB_USERNAME', 'admin'),
