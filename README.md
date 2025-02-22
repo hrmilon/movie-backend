@@ -1,5 +1,14 @@
-### Movie Recommendatio ai
-- send a request to groq returns 5 movie
-- send that 5 movie in tmdb
-- returns the results of that 5 movies info
-- which will curate the user desire
+### Movie Recommendation ai backend
+#### Deployment issues
+
+**Problems**
+- connection error using sqlite
+    - reason : sqlite driver doesn't support in `koyeb` 
+
+- neon.tech postgress has the problem with migration
+
+  - reason: used pooled connection string which cant run migration in koyeb console.
+
+- `env` of pgsql doesn't work as long as don't modified that database.php iniside.
+
+- without `ProcFile` koyeb serverless deployment does'nt work the reason behind is koyeb doesn't actually know how to interpret with application and where to start
