@@ -1,6 +1,10 @@
 ### Movie Recommendation ai backend
-#### Deployment issues
+- Send your mood,genre you like and your thoughts
+- Which gets you through llm + tmdb
+- Get 5 curated results you like
 
+
+#### Deployment issues
 **Problems**
 - connection error using sqlite
     - reason : sqlite driver doesn't support in `koyeb` 
